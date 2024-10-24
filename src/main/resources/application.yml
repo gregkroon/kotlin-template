@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+
+# Non-prod environment specific properties
+nonprod:
+  app:
+    name: demo-nonprod
+    url: http://demo-nonprod.example.com
